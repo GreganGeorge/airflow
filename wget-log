@@ -1,0 +1,6 @@
+--2026-03-04 09:58:43--  https://att-c.udemycdn.com/2025-01-31_10-11-19-bf4717b8e6fc24b49b9bb002179a4556/original.zip?response-content-disposition=attachment%3B+filename%3Dairflow_project.zip
+Resolving att-c.udemycdn.com (att-c.udemycdn.com)... 108.158.46.15, 108.158.46.65, 108.158.46.81, ...
+Connecting to att-c.udemycdn.com (att-c.udemycdn.com)|108.158.46.15|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2026-03-04 09:58:44 ERROR 403: Forbidden.
+
