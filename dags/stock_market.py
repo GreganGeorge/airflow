@@ -36,7 +36,7 @@ def stock_market():
     store_prices=PythonOperator(
         task_id='store_prices',
         python_callable=_store_prices,
-        op_kwargs={'stock':'{{ ti.xcom_pull(task_ids="get_stock_prices") }}'}
+        op_kwargs={'stock':'{{ ti.xcom_pull(task_ids="get_stock_prices") }}'} # able to get ti value because it is provided in jinja template, this will only renders when the task begins.
     )
 
     # format_prices=DockerOperator(
