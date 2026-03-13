@@ -1,0 +1,65 @@
+[0m11:31:46.529894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e5941c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e4f4ae40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e6fe4bc0>]}
+
+
+============================== 11:31:46.548483 | 127bf8a4-62cc-42c6-8cde-d34480c922e2 ==============================
+[0m11:31:46.548483 [info ] [MainThread]: Running with dbt=1.11.7
+[0m11:31:46.550127 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'quiet': 'False', 'static_parser': 'True', 'invocation_command': 'dbt init', 'empty': 'None', 'profiles_dir': '/home/codespace/.dbt', 'use_experimental_parser': 'False', 'introspect': 'True', 'partial_parse': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'version_check': 'True', 'log_path': 'logs', 'write_json': 'True', 'log_cache_events': 'False', 'printer_width': '80'}
+[0m11:31:46.595078 [info ] [MainThread]: Creating dbt configuration folder at /home/codespace/.dbt
+[0m11:31:55.222659 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:31:55.231921 [info ] [MainThread]: 
+Your new dbt project "dbt_banking" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:31:55.232653 [info ] [MainThread]: Setting up your profile.
+[0m11:31:55.233614 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m11:31:55.236172 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 8.815666, "process_in_blocks": "86040", "process_kernel_time": 0.416422, "process_mem_max_rss": "118712", "process_out_blocks": "64", "process_user_time": 3.266933}
+[0m11:31:55.237360 [debug] [MainThread]: Command `dbt init` failed at 11:31:55.237192 after 8.82 seconds
+[0m11:31:55.237962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e4ade480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e4c29940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a57e48f3b90>]}
+[0m11:31:55.238623 [debug] [MainThread]: Flushing usage events
+[0m11:31:56.191957 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:30:27.050458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a1617b8e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a1617e12b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a1614369f0>]}
+
+
+============================== 12:30:27.063701 | e76ed675-aabb-4606-8e54-1ddb3cc7acbc ==============================
+[0m12:30:27.063701 [info ] [MainThread]: Running with dbt=1.11.7
+[0m12:30:27.065395 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error': 'None', 'log_format': 'default', 'partial_parse': 'True', 'debug': 'False', 'use_colors': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'introspect': 'True', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'printer_width': '80', 'profiles_dir': '/home/codespace/.dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'write_json': 'True', 'log_cache_events': 'False'}
+[0m12:30:31.502707 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:30:31.528272 [info ] [MainThread]: 
+Your new dbt project "dbt_banking" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:30:31.530322 [info ] [MainThread]: Setting up your profile.
+[0m12:30:31.532561 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m12:30:31.538237 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 4.612177, "process_in_blocks": "131200", "process_kernel_time": 0.45637, "process_mem_max_rss": "118812", "process_out_blocks": "80", "process_user_time": 3.417842}
+[0m12:30:31.539497 [debug] [MainThread]: Command `dbt init` failed at 12:30:31.539330 after 4.61 seconds
+[0m12:30:31.540465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a1618b2180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a1614139b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a160a471a0>]}
+[0m12:30:31.541440 [debug] [MainThread]: Flushing usage events
+[0m12:30:32.533527 [debug] [MainThread]: An error was encountered while trying to flush usage events
